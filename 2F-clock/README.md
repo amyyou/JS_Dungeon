@@ -1,9 +1,9 @@
 ![image](https://amyyou.github.io/JS_Dungeon/2F-clock/img/demo.PNG)
 
-# 時鐘
+## 時鐘
 使用技術 : HTML 、CSS(SCSS)、Javascript
 
-# 下載資源
+## 下載資源
 [UI 線上設計稿](https://xd.adobe.com/spec/43be2f02-1d11-4dfb-4e3d-5c4df1df3896-358f/screen/e7b79d5d-37bb-41f7-8ca2-9df3811589e9/)
 
 ## 挑戰目標   
