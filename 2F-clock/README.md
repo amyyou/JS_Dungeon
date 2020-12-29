@@ -27,5 +27,5 @@
   -docoument.querySelector('')    
   -setAttribute(‘style’,transform: rotate(deg))   
 
-4. 執行
-  使用 requestAnimationFrame()刷新畫面
+4. 執行   
+   使用 requestAnimationFrame()刷新畫面
