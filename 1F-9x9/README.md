@@ -5,6 +5,6 @@
 2.需使用 HTML、CSS、JS 技術 。  
 3.介面需與設計稿一致 。   
 
-![image](picture or gif url)
+![image](https://amyyou.github.io/JS_Dungeon/1F-9x9/img/demo)
 
 
