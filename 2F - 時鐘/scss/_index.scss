@@ -1,0 +1,44 @@
+$bg-color:#293B29;
+
+.container{
+  max-width: 1280px;
+  height: 100vh;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $bg-color;
+
+}
+
+.clock{
+  width: 350px;
+  height: 350px;
+  background-image: url("../img/clock-bg.svg");
+  background-position: center;
+  position: relative;
+  
+
+  //皆設定位置在12點鐘處
+  &_hour{
+     position: absolute;
+     top:170px;
+     left: 172px;
+     transform-origin: 3px center;
+     transform:rotate(-90deg);
+  }
+  &_minute{
+    position: absolute;
+    top: 80px;
+    left: 171px;
+    transform-origin: center 92px;
+    transform: rotate(0deg);
+  }
+  &_second{
+    position: absolute;
+    bottom: 52px;
+    left: 168.4px;
+    transform-origin: center 0px;
+    transform: rotate(180deg);
+  }
+}

@@ -1,0 +1,119 @@
+.container {
+  max-width: 1280px;
+  height: 100vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #293B29;
+}
+
+.clock {
+  width: 350px;
+  height: 350px;
+  background-image: url("../img/clock-bg.svg");
+  background-position: center;
+  position: relative;
+}
+
+.clock_hour {
+  position: absolute;
+  top: 170px;
+  left: 172px;
+  -webkit-transform-origin: 3px center;
+          transform-origin: 3px center;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.clock_minute {
+  position: absolute;
+  top: 80px;
+  left: 171px;
+  -webkit-transform-origin: center 92px;
+          transform-origin: center 92px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.clock_second {
+  position: absolute;
+  bottom: 52px;
+  left: 168.4px;
+  -webkit-transform-origin: center 0px;
+          transform-origin: center 0px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+/*# sourceMappingURL=all.css.map */
