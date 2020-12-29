@@ -1,9 +1,9 @@
 ![image](https://amyyou.github.io/JS_Dungeon/1F-9x9/img/demo.png)
 
-# 9x9 乘法表
+## 9x9 乘法表
 使用技術 : HTML 、CSS(SCSS)、Javascript
 
-# 下載資源
+## 下載資源
 [UI 線上設計稿](https://xd.adobe.com/spec/256981fc-ef65-4d9b-773c-45d8ef0353c6-5358/screen/50fba855-bde7-4771-b73c-3fd839418cf0/)   
 
 ## 挑戰目標        
