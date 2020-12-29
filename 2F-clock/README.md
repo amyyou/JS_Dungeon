@@ -1,6 +1,6 @@
 ![image](https://amyyou.github.io/JS_Dungeon/2F-clock/img/demo.PNG)
 
-## 時鐘
+# 時鐘
 使用技術 : HTML 、CSS(SCSS)、Javascript
 
 ## 下載資源
