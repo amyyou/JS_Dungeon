@@ -28,8 +28,8 @@
 
 
 3. JS更新UI(更新指針角度，新增class)    
-  -docoument.querySelector('')    
-  -setAttribute(‘style’,transform: rotate(deg))   
+  -docoument.querySelector('')方法選取 id 或 class 元素(選擇單一元素，抓第一筆資料做更新)  
+  -setAttribute(‘style’,transform: rotate(deg)):放的兩個參數分別是要設置的屬性跟值  
 
 4. 執行   
    使用 requestAnimationFrame()刷新畫面
