@@ -11,5 +11,8 @@
 2. 需使用 HTML、CSS、JS 技術 。      
 3. 介面需與設計稿一致 。     
 
+### 程式說明
+1. 使用document.getElementById()方法選取 id 元素渲染到網頁
+2. 使用innerHTML增加標籤(特性是會把裡面給清空，才會在指定的id or class塞你要賦予給他的值)
 
 
